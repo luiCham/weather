@@ -1,6 +1,9 @@
 <template>
 <div>
   <row>
+    <p>HOLA FROM APLIFY TPM</p>
+  </row>
+  <row>
     <p class="weatherText" id="wText">{{weatherValue}}</p>
   </row>
   <row>
