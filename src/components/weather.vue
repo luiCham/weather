@@ -1,7 +1,7 @@
 <template>
 <div>
   <row>
-    <p>HOLA FROM APLIFY TPM</p>
+    <p>Set Weather App</p>
   </row>
   <row>
     <p class="weatherText" id="wText">{{weatherValue}}</p>
