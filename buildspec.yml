@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - npm install
+
+  build:
+    commands:
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run test
+      - run: npm run build --if-present
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: dist
