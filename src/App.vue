@@ -16,6 +16,11 @@ export default {
 </script>
 
 <style>
+@font-face {
+    font-family: 'Chopin Script';
+    src: local("Chopin Script"),
+    url(./fonts/ChopinScript.ttf) format("truetype");
+  }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

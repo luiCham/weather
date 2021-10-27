@@ -1,13 +1,13 @@
 <template>
 <div>
   <row>
-    <p>Set Weather App</p>
+    <p class="title-text elegant-font">Set Weather App</p>
   </row>
   <row>
-    <p class="weatherText" id="wText">{{weatherValue}}°</p>
+    <p class="weather-text elegant-font" id="wText">{{weatherValue}}°</p>
   </row>
   <row>
-    <input type="range" v-model="weatherValue" min=-10 max=40 id="wInput">
+    <input type="range" class="form-range" v-model="weatherValue" min=-10 max=40 id="wInput">
   </row>
 </div>
 </template>
@@ -22,3 +22,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  p.weather-text{
+    font-size: 1000%;
+  }
+
+  p.title-text{
+    font-size: 500%;
+  }
+
+  p.elegant-font{
+    font-family: 'Chopin Script';
+  }
+</style>
