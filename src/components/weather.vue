@@ -4,7 +4,7 @@
     <p>Set Weather App</p>
   </row>
   <row>
-    <p class="weatherText" id="wText">{{weatherValue}}</p>
+    <p class="weatherText" id="wText">{{weatherValue}}°</p>
   </row>
   <row>
     <input type="range" v-model="weatherValue" min=-10 max=40 id="wInput">

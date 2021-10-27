@@ -10,7 +10,7 @@ describe("first render", () => {
   const weatherText = wrapper.find('#wText');
 
   it("default text value is 20", () => {
-    expect(weatherText.text()).toBe('20');
+    expect(weatherText.text()).toBe('20°');
   });
 
   it("default input value is 20", () => {

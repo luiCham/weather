@@ -15,6 +15,6 @@ describe("set weather value to 30", () => {
   });
 
   it("text value is set to 30", () => {
-    expect(weatherText.text()).toBe('30');
+    expect(weatherText.text()).toBe('30°');
   });
 });
